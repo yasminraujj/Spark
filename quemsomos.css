@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Aloja';
+    src: url(Aloja-extended.otf);
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url(agrandir-regular.otf);
+}
+h2{
+
+    font-family: 'Aloja';
+        position: absolute;
+        top: 28%;
+        left: 40%;
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        font-size: 40px;
+        letter-spacing: 10px;
+
+}
+
+p{
+    font-family:'Agrandir';
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left:  32%;
+    transform: translate(-10%, -20%);
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+header{
+    background-color: #f1f9f1;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+header2{
+    background-color: #f0c765;
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    height: 730px;
+    
+    
+}
+
+h1{
+    top: 40%;
+    transform: translateY(-50%);
+    transform: rotate(-270deg); 
+    transform-origin: left bottom; 
+    white-space: nowrap; 
+    position:absolute; 
+    left: 1750px; 
+    font-family: 'Arima';
+    font-size: 70px;
+    color: #f1f9f1;
+
+}
+
+body{
+background: #f0d192;
+}
+
+
+button{
+    background: #f1f9f1;
+    font-family: 'Arima';
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    color: black;
+    top: 10%;
+    left: -200px;
+    border: none;
+    padding: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.icone1{
+    height: 350px;
+    right: 200px;
+    top: -40%;
+    position: relative;
+}
+
+.icone2{
+    height: 120px;
+    left: 1130px;
+    top: 20%;
+    position: relative;
+
+}
+
+.icone3{
+    top: 25%;
+    position:absolute; 
+    left: 1550px; 
+    width: 140px; 
+    height: 140px;
+}
+
+.icone4{
+    top: 50%;
+    position: absolute;
+    width: 140px; 
+    height: 140px;
+    left: 50px;
+}
+
+.icone5{
+    top: 75%;
+    position: absolute;
+    width: 140px; 
+    height: 140px;
+    left: 450px;
+}
+
+.icone6{
+    top: 91%;
+    position: absolute;
+    height: 85px;
+    height: 85px;
+    left: 1350px;
+}
+
+.destacada{
+    font-family:'Agrandir';
+    color: #ef9543;
+}

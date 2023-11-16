@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Aloja';
+    src: url(Aloja-Light.otf);
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url(agrandir-regular.otf);
+}
+
+
+h1{
+    top: 40%;
+    transform: translateY(-50%);
+    transform: rotate(-270deg); 
+    transform-origin: left bottom; 
+    white-space: nowrap; 
+    position:absolute; 
+    left: 1750px; 
+    font-family: 'Arima';
+    font-size: 70px;
+    color: #f1f9f1;
+}
+h2{
+
+    font-family: 'Aloja';
+        position: absolute;
+        top: 27%;
+        left: 40%;
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        font-size: 40px;
+        letter-spacing: 10px;
+
+}
+
+header{
+    background-color: #f1f9f1;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+header2{
+    background-color: #f0c765;
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    height: 730px;
+    
+    
+}
+body{
+    background: #f0d192;
+    }
+    
+    
+    button{
+        background: #f1f9f1;
+        font-family: 'Arima';
+        font-size: x-large;
+        font-weight: bold;
+        position: relative;
+        color: black;
+        top: 10%;
+        left: -200px;
+        border: none;
+        padding: 30px;
+        margin: 30px;
+        cursor: pointer;
+    }
+
+    .icone1{
+        height: 350px;
+        right: 200px;
+        top: -40%;
+        position: relative;
+    }
+    
+    .icone2{
+        height: 120px;
+        left: 1130px;
+        top: 20%;
+        position: relative;
+    
+    }
+
+    .icone10{
+        top: 45%;
+        position:absolute; 
+        left: 350px; 
+        width: 98px; 
+        height: 98px;
+    }
+
+    .icone11{
+        top: 60%;
+        position:absolute; 
+        left: 350px; 
+        width: 88px; 
+        height: 80px;
+    }
+
+    .icone12{
+        top:  75%;
+        position:absolute; 
+        left: 350px; 
+        width: 88px; 
+        height: 88px;
+    }
+
+    .icone13{
+        top:  45%;
+        position:absolute; 
+        left: 1220px; 
+        width: 80px; 
+        height: 80px;
+    }
+
+    .icone14{
+        top:  60%;
+        position:absolute; 
+        left: 1220px; 
+        width: 80px; 
+        height: 80px;
+    }
+
+    #paragrafo4{
+        top: 48%;
+        position:absolute; 
+        left: 455px; 
+        font-family: 'Agrandir';
+        color: black;
+        font-size: 17px;
+    }
+    
+    #paragrafo5{
+        top: 61%;
+        position:absolute; 
+        left: 450px; 
+        font-family: 'Agrandir';
+        color: black;
+        font-size: 17px;
+    }
+
+    #paragrafo6{
+        top:  77%;
+        position:absolute; 
+        left: 450px;
+        font-family: 'Agrandir';
+        color: black;
+        font-size: 17px; 
+    }
+
+    #paragrafo7{
+        top:  47%;
+        position:absolute; 
+        left: 1292px; 
+        font-family: 'Agrandir';
+        color: black;
+        font-size: 17px;
+
+    }
+
+    #paragrafo8{
+        top:  63%;
+        position:absolute; 
+        left: 1300px;  
+        font-family: 'Agrandir';
+        color: black;
+        font-size: 17px;
+
+    }
